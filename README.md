@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Remote Raspberry Pi Connector** is a Visual Studio Code extension designed to simplify the process of connecting to, managing, and interacting with multiple Raspberry Pi devices over SSH. It provides a suite of powerful tools for developers and enthusiasts in robotics, IoT, and medical engineering to seamlessly manage GPIO pins, execute remote commands, transfer files, and automate tasks on one or more Raspberry Pi devices directly from within Visual Studio Code. Whether you're working on robotics projects, IoT applications, or medical engineering solutions, this extension enhances your workflow by enabling efficient remote management of Raspberry Pi devices.
+**Remote Raspberry Pi Connector**  for Visual Studio Code simplifies SSH management of multiple Raspberry Pi devices. Control GPIO pins, run commands, transfer files, and automate tasks—all within the IDE. Ideal for robotics, IoT, and medical engineering, it boosts productivity and streamlines remote development.
 
 ## Features
 
@@ -133,15 +133,19 @@ The extension contributes the following commands:
 - `Raspberry Pi: Remote Pi: Download File from Raspberry Pi`
 - `Raspberry Pi: Remote Pi: Disconnect from Raspberry Pi`
 - `Raspberry Pi: Remote Pi: Open Integrated Terminal`
-	``Type: ssh yourPiUserName@it'sIP (For example: ssh pi@192.168.19.15)``
+	``Type: ssh yourPiUserName@ip (For example: ssh pi@192.168.19.15)``
 - `Raspberry Pi: Remote Pi: Save Custom Command`
 - `Raspberry Pi: Add Device`
 - `Raspberry Pi: Switch Device`
 
 # Raspberry Pi Projects Guide
 
-## GPIO Setup
+## Raspberry Pi Common Commands
 **Prefix:** `rpi-gpio-setup`  
+**Description:** Comprehensive commands for managing Raspberry Pi, robotics, sensors, and more.
+
+## GPIO Setup
+**Prefix:** `rpi-commands`  
 **Description:** Basic GPIO pin setup and control using RPi.GPIO library.
 
 ## Blinking LED
